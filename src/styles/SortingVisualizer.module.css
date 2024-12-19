@@ -1,0 +1,67 @@
+.visualizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    height: 50vh;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .arrayContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2px;
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .arrayBar {
+    background-color: turquoise;
+    width: 10px;
+    transition: height 0.2s ease, background-color 0.2s ease;
+  }
+  .description {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+  }
+  
+  .description h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .description p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .complexity h3 {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .complexity ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .complexity li {
+    margin-bottom: 5px;
+  }
+  
+  .complexity p {
+    margin-top: 5px;
+  }
+  
+  
